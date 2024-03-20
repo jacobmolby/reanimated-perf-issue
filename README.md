@@ -10,22 +10,24 @@ To run the benchmark:
 
 1. `npm install react-native-reanimated@3.6.3`
 2. `npm run android:release`
-3. ```flashlight test --bundleId com.anonymous.reanimatedperfissue \
-   --testCommand "maestro test scroll.yml" \
-   --duration 30000 \
-   --iterationCount 5 \
-   --resultsFilePath 3_6_3.json --resultsTitle "3.6.3"
+3. ```
+   flashlight test --bundleId com.anonymous.reanimatedperfissue \
+      --testCommand "maestro test scroll.yml" \
+      --duration 30000 \
+      --iterationCount 5 \
+      --resultsFilePath 3_6_3.json --resultsTitle "3.6.3"
    ```
 
 ## To run for for reanimated 3.7.2
 
 1. `npm install react-native-reanimated@3.7.2`
 2. `npm run android:release`
-3. ```flashlight test --bundleId com.anonymous.reanimatedperfissue \
-   --testCommand "maestro test scroll.yml" \
-   --duration 30000 \
-   --iterationCount 5 \
-   --resultsFilePath 3_7_2.json --resultsTitle "3.7.2"
+3. ```
+   flashlight test --bundleId com.anonymous.reanimatedperfissue \
+      --testCommand "maestro test scroll.yml" \
+      --duration 30000 \
+      --iterationCount 5 \
+      --resultsFilePath 3_7_2.json --resultsTitle "3.7.2"
    ```
 
 ## Results
@@ -45,4 +47,3 @@ https://github.com/jacobmolby/reanimated-perf-issue/assets/25974867/6e545b06-7bf
 ### Video of the example on 3.7.2
 
 https://github.com/jacobmolby/reanimated-perf-issue/assets/25974867/18898df8-33b1-499a-b5c6-ee7447603e0d
-
