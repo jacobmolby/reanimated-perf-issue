@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-dev-launcher",
+        {
+          "launchModeExperimental": "most-recent"
+        }
+      ]
+    ],
     "name": "reanimated-perf-issue",
     "slug": "reanimated-perf-issue",
     "version": "1.0.0",
@@ -21,7 +29,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.reanimatedperfissue"
     },
     "web": {
       "favicon": "./assets/favicon.png"

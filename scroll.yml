@@ -1,0 +1,11 @@
+appId: com.anonymous.reanimatedperfissue
+---
+- launchApp
+- assertVisible: 1 # the number 1 is visible
+- repeat:
+    times: 5 
+    commands:
+      - swipe:
+          start: 50%, 90% # From (50% of width, 90% of height)
+          end: 50%, 10% # To (50% of width, 10% of height)
+          duration: 100 

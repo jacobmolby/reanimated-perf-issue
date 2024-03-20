@@ -2,17 +2,23 @@
   "name": "reanimated-perf-issue",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "license": "MIT",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start:clear": "expo start --clear",
+    "android": "npx expo run:android",
+    "android:release": "cd android && ./gradlew clean && cd .. && npx expo run:android --variant release"
   },
   "dependencies": {
     "expo": "~50.0.14",
+    "expo-dev-client": "~3.3.11",
     "expo-status-bar": "~1.11.1",
+    "randomcolor": "0.6.2",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-gesture-handler": "2.15.0",
+    "react-native-reanimated": "3.6.2",
+    "tinycolor2": "1.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
