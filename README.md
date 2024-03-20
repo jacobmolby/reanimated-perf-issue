@@ -37,3 +37,12 @@ The included results have been run on a Samsung Galaxy A52G
 ![Overview](overview.png)
 
 ![FPS](fps.png)
+
+### Video of the example on 3.6.3
+
+https://github.com/jacobmolby/reanimated-perf-issue/assets/25974867/6e545b06-7bf0-4cf4-a1a0-50cc49835d80
+
+### Video of the example on 3.7.2
+
+https://github.com/jacobmolby/reanimated-perf-issue/assets/25974867/18898df8-33b1-499a-b5c6-ee7447603e0d
+
